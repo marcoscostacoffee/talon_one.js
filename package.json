@@ -29,9 +29,6 @@
   "browser": {
     "fs": false
   },
-  "dependencies": {
-    "superagent": "8.1.2"
-  },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
@@ -55,10 +52,14 @@
     "@babel/register": "^7.0.0",
     "expect.js": "^0.3.1",
     "mocha": "^5.2.0",
+    "nock": "^14.0.1",
     "sinon": "^7.2.0",
     "typescript": "^4.0.3"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "superagent": "^8.1.2"
+  }
 }
